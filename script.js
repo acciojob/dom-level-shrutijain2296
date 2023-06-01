@@ -1,6 +1,6 @@
 //your JS code here. If required.
 const level = document.querySelectorAll("ul li")
-const domLevel = 0;
+const domLevel = -1;
 
 for(let i = 0; i < level.length; i++){
 	if(level[i.id === "level"){
@@ -9,7 +9,7 @@ for(let i = 0; i < level.length; i++){
 	}
 	
 }
-alert("The level of the element is: domLevel);
+alert("The level of the element is:" + domLevel);
 
 
 
