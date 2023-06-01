@@ -1,3 +1,15 @@
 //your JS code here. If required.
-const level = document.getElementById("level");
-alert("The level of the element is:" level.textContent);
+const level = document.querySelectorAll("ul li")
+const domLevel = 0;
+
+for(let i = 0; i < level.length; i++){
+	if(level[i.id === "level"){
+		domLevel = i+1;
+		break;
+	}
+	
+}
+alert("The level of the element is: domLevel);
+
+
+
